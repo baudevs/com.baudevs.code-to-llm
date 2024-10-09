@@ -1,0 +1,99 @@
+common:
+  - .DS_Store
+  - LICENSE
+  - README.md
+  - CHANGELOG.md
+  - CONTRIBUTING.md
+  - CODE_OF_CONDUCT.md
+  - SECURITY.md
+  - .git/
+  - .github/
+  - .vscode/
+  - .idea/
+  - .gitignore
+  - '*.log'
+  - '*.out'
+  - '*.tmp'
+  - '*.pid'
+  - '*.lock'
+  - '*.pid'
+  - '*.pid'
+  - '*.pid'
+
+Next.js:
+  - node_modules/
+  - dist/
+  - build/
+  - .env
+  - npm-debug.log
+  - yarn-error.log
+
+Node.js + Express:
+  - node_modules/
+  - dist/
+  - build/
+  - .env
+  - npm-debug.log
+  - yarn-error.log
+
+React with Remix:
+  - node_modules/
+  - dist/
+  - build/
+  - .env
+  - npm-debug.log
+  - yarn-error.log
+
+Svelte:
+  - node_modules/
+  - dist/
+  - build/
+  - .env
+  - npm-debug.log
+  - yarn-error.log
+
+Pure JavaScript:
+  - node_modules/
+  - dist/
+  - build/
+  - .env
+  - npm-debug.log
+  - yarn-error.log
+
+Python Data Science:
+  - venv/
+  - __pycache__/
+  - '*.pyc'
+  - .env
+  - .ipynb_checkpoints/
+  - .DS_Store
+
+Python with Flask:
+  - venv/
+  - __pycache__/
+  - '*.pyc'
+  - .env
+  - .DS_Store
+
+Go Library:
+  - vendor/
+  - bin/
+  - '*.exe'
+  - '*.dll'
+  - '*.so'
+  - '*.dylib'
+  - .DS_Store
+
+Go Web Project:
+  - vendor/
+  - bin/
+  - '*.exe'
+  - '*.dll'
+  - '*.so'
+  - '*.dylib'
+  - .DS_Store
+
+Rust:
+  - target/
+  - '*.rs.bk'
+  - .DS_Store
