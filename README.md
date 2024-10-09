@@ -16,6 +16,8 @@
 
 To install `ctllm`, follow these steps:
 
+### Option 1: Install cloning the repository
+
 1. **Clone the Repository**:
 
    ```bash
@@ -36,6 +38,7 @@ To check if you have go installed, run:
 ```bash
 go version
 ```
+
 if you don't see the version, or an error it means that you don't have go installed.
 you can install it from [https://golang.org/dl/](https://golang.org/dl/).
 
@@ -59,6 +62,53 @@ source ~/.zshrc
 ``` 
 
 5. **Test the installation**:
+
+```bash
+ctllm --help
+```
+
+### Option 2: Install the pre-compiled binary
+
+1. **Download the Binary**:
+
+   Visit the [Releases](https://github.com/baudevs/code-to-llm/releases) page to download the latest pre-compiled binary for your operating system.
+
+2. **Make the Binary Executable**:
+
+```bash
+chmod +x ./install.sh
+```
+
+
+3. **Run the installation script**:
+
+```bash
+./install.sh
+```
+
+- You may be prompted for your password to install the executable to /usr/local/bin.
+
+## Option 3: Manual installation
+
+1. **Download the appropriate binary for your operating system**:
+
+   Visit the [Releases](https://github.com/baudevs/code-to-llm/releases) page to download the latest pre-compiled binary for your operating system.
+
+2. **Make the Binary Executable**:  
+
+```bash
+chmod +x ctllm
+```
+
+3. **Move the Binary to a Directory in Your PATH**:
+
+```bash
+sudo mv ctllm /usr/local/bin/ # or to another directory in your PATH
+```
+
+- You may be prompted for your password to install the executable to /usr/local/bin.
+
+4. **Test the installation**:
 
 ```bash
 ctllm --help
